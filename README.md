@@ -9,6 +9,8 @@ A Kanban board for the internal IT PMO of a fictitious bank, built as a demo and
 
 > Demo only. Data is held in memory, so refreshing the page resets the board to its seed data.
 
+![IT PMO Kanban board showing eight seed tasks across four columns](docs/screenshot.png)
+
 ## Features
 
 - **Four columns:** Backlog, In Progress, Blocked and Done.
@@ -71,6 +73,7 @@ grep -nE 'localStorage|sessionStorage|indexedDB|document\.cookie|alert\(|confirm
 .
 ├── index.html                 # The whole app: markup, <style> and <script>
 ├── CLAUDE.md                  # Architecture notes and project constraints
+├── docs/screenshot.png        # Screenshot used in this README
 └── .github/workflows/
     ├── ci.yml                 # Syntax, constraint and secret-scan checks
     └── pages.yml              # Deploys index.html to GitHub Pages

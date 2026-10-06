@@ -27,3 +27,10 @@ _site/
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Local tooling
+.playwright-mcp/
+.mcp.json
+__pycache__/
+.venv/
+venv/
